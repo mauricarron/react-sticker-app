@@ -16,11 +16,12 @@ const SearchBar = ({ userSearch, setUserSearch }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className="form">
       <input
         type="search"
         name="user-search"
         id="user-search"
+        className="form__input"
         value={inputValue}
         autoComplete="on"
         autoFocus
