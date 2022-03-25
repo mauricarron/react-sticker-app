@@ -1,5 +1,4 @@
 import { useState } from "react";
-import AlertCopyToClipboard from "./components/AlertCopyToClipboard";
 import SearchBar from "./components/SearchBar";
 import SearchResults from "./components/SearchResults";
 
