@@ -1,3 +1,5 @@
+![StickerApp](https://media1.giphy.com/media/3aMRD60syznMKPiPDw/giphy.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
