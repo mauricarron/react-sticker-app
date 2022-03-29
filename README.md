@@ -1,4 +1,30 @@
+# [StickerApp]()
+
 ![StickerApp](https://media1.giphy.com/media/3aMRD60syznMKPiPDw/giphy.gif)
+
+## Deploy 🔻
+
+[StickerApp]()
+Buscador de Stickers para compartir en Redes Sociales.
+
+## ⭐ Acerca del Proyecto
+
+Proyecto de aprendizaje realizado en el curso **React: De cero a experto** dictado por Fernando Herrera.
+
+## 🔍 Objetivos
+
+- Profundizar sobre los elementos fundamentales de React.
+- Fetch APIs
+- Custom Hooks
+- Unit Testing (Jest)
+- Deploy (Netlify)
+
+## ✅ Tecnologías
+
+- Javascript
+- React
+
+# Instalación
 
 # Getting Started with Create React App
 
