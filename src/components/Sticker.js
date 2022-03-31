@@ -2,6 +2,10 @@ import React from "react";
 
 const Sticker = ({ id, title, url, setCopyState }) => {
   const handleClick = () => {
+    const regex = /^(.*?).webp/;
+    const copyURL = url.match(regex);
+    console.log(copyURL);
+
     navigator.clipboard.writeText(url);
 
     setCopyState(true);
