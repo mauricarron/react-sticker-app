@@ -14,4 +14,11 @@ describe("tests on SearchResults Component", () => {
   test("should match snapshot", () => {
     expect(wrapper).toMatchSnapshot();
   });
+
+  test("should show props correctly", () => {
+    const img = wrapper.find("img");
+
+    expect(img.prop("src")).toBe(url);
+    expect(img.prop("alt")).toBe(title);
+  });
 });
