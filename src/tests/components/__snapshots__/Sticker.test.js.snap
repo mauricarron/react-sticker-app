@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tests on SearchResults Component should match snapshot 1`] = `
+<img
+  alt="sticker title"
+  className="img-sticker"
+  key="abc123"
+  onClick={[Function]}
+  src="https://mi.image.jpg"
+/>
+`;

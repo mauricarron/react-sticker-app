@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const Sticker = ({ id, title, url, setCopyState }) => {
   const handleClick = () => {
@@ -19,6 +19,13 @@ const Sticker = ({ id, title, url, setCopyState }) => {
       onClick={handleClick}
     />
   );
+};
+
+Sticker.propTypes = {
+  id: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  url: PropTypes.string.isRequired,
+  setCopyState: PropTypes.func.isRequired,
 };
 
 export default Sticker;
